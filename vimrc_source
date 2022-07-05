@@ -8,11 +8,12 @@ set smartindent     " Auto indent new lines
 set ignorecase      " ignore cases in searches
 set smartcase       " turn off ignorecase if there is caps in search
 set scrolloff=5     " Keep a buffer of 5 lines around insert
-set background=dark " set background to dark
 set number          " set number to show
 set nowrap          " don't wrap lines
 set noswapfile      " no swap file
 set nobackup        " don't create a backup file
 set wildmenu
 set clipboard=unnamedplus
-color slate
+set t_Co=256
+"set background=dark " set background to dark
+color shine 
