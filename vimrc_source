@@ -15,5 +15,5 @@ set nobackup        " don't create a backup file
 set wildmenu
 set clipboard=unnamedplus
 set t_Co=256
-"set background=dark " set background to dark
-color shine 
+set background=dark " set background to dark
+color slate 
